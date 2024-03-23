@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: hsl(0, 3%, 88%);
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    background-color: hsl(219, 30%, 9%);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: hsl(189, 27%, 15%) 0px 2px 8px 0px !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(218, 33%, 9%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+nav ul li a{
+    display: block;
+    text-transform: capitalize;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding-bottom: 0.5rem;
+}
+
+
+nav ul li a:hover{
+    color: rgb(163, 67, 67);
+    border-bottom: 2px solid rgb(65, 18, 18);
+}
+
+nav a img {
+    width: 4rem;
+}
+
+/* GLOBAL STYLES */
+.main-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* INTRO SECTIONS STYLES */
+.intro-main-img {
+    width: 450px;
+    margin-top: 10rem;
+}
+
+.intro-main-img  img{
+    width: 100%;
+    display: block;
+}
+
+.intro-content {
+    width: 40%;
+    margin-top: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-content h5{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.intro-content p {
+    font-weight: 200;
+    text-align: center;
+}
+
+.intro-content button {
+    background-color: hsl(189, 46%, 25%);
+    border: none;
+    border-radius: 50px;
+    font-family: inherit;
+    padding: 1rem;
+    width: 180px;
+    cursor: pointer;
+    transition: background-color 0.6s ease, color 0.6s ease, border-color 0.6s ease;
+}
+
+.intro-content button:hover {
+    background-color: transparent;
+    color: hsl(189, 46%, 25%);
+    border: 2px solid hsl(189, 46%, 25%);
+}
