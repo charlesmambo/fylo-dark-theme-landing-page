@@ -69,6 +69,7 @@ nav a img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 4rem;
 }
 
 
@@ -120,3 +121,144 @@ nav a img {
     color: hsl(189, 46%, 25%);
     border: 2px solid hsl(189, 46%, 25%);
 }
+
+/* <!-- How we work --> */
+.abt {
+    display: flex;
+    padding: 0 2rem;
+    width: 75%;
+    margin: 2px auto;
+}
+.abt-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+    
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    width: 320px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 2rem 1rem;
+    background-color: #1b2330;
+    border-radius: 0.2rem;
+}
+
+.content img {
+    display: block;
+    margin-bottom: 0.8rem;
+    width: 40px;
+}
+
+.content h5 {
+   font-size: 1.01rem;
+   margin-bottom: 0.8rem;
+}
+
+.content p {
+   font-size: 0.8rem;
+   font-weight: 300;
+}
+
+
+/* MT section  */
+.mt-container {
+    margin: 3rem auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.mot {
+    width: 600px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.mot img {
+    display: block;
+    width: 100%;
+}
+
+.mot-content h4{
+    margin-bottom: 0.7rem;
+}
+.mot-content h4, p{
+    letter-spacing: 1px;
+}
+
+.mot-content  p{
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.link {
+    color: #4dadaa;
+   border-bottom: 1px solid #4dadaa;
+   transition: font-size 0.3s ease;
+   font-size: 0.9rem;
+}
+
+.icon {
+    font-size: 0.7rem;
+    color: #4dadaa;
+    transition: font-size 0.3s ease;
+}
+
+.icon:hover,
+.link:hover {
+    font-size: 0.8rem;
+}
+
+/* Testimonial */
+.testimonial {
+    width: 88%;
+    margin: 4rem auto;
+    display: flex;
+    gap: 3rem;
+}
+.tm-content {
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 340px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 1.2rem;
+    background-color: #1b2330;
+    border-radius: 0.2rem;
+    margin: 2rem 0;
+}
+
+.tm-content p {
+    font-size: 0.8rem;
+}
+
+.profile h5, p{
+    font-size: 0.6rem;
+}
+
+.profile p{
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+}
+
+.sub-container {
+    margin-top: 1.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.sub-container img {
+    display: block;
+    width: 30px;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 50%;
+}
+
